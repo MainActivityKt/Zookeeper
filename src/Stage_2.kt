@@ -32,7 +32,7 @@ Look at that! Our little camel is sunbathing!
 
  */
 
-var camel = """Switching on the camera in the camel habitat...
+private var camel = """Switching on the camera in the camel habitat...
  ___.-''''-.
 /___  @    |
 ',,,,.     |         _.'''''''._
