@@ -1,6 +1,6 @@
 # Zookeeper
 
-This project will help the zookeepers check on the animals and
+This project will help zookeepers check on the animals and
 make sure that they're doing well.
 
 It will be able to process commands from the zookeepers and display
@@ -40,8 +40,8 @@ Stage implementation: [AnimalPrinter.kt](app/src/main/kotlin/zookeeper/AnimalPri
 
 In this stage the program:
 
-- Ask for the number of the desired habitat.
-- Use the input number as an index of your habitats to print its content.
+- Asks the user for the number of the desired habitat.
+- Uses the input number as an index of your habitats to print its content.
 - Prints the habitat and a message to end the program.
 - 
 The program stores each habitat as an Animal data type. Check [utils](app/src/main/kotlin/utils)
@@ -74,9 +74,9 @@ Stage implementation: [MultiPrinter.kt](app/src/main/kotlin/zookeeper/MulitPrint
 
 In this, stage our program:
 
-- Repeat the behavior from the previous stage, but now in a loop.
-- Ask the user to enter the number of habitat they'd like to view, in each iteration of the loop.
-- Terminate the program when `exit` is input.
+- Repeats the behavior from the previous stage, but now in a loop.
+- Asks the user to enter the number of habitat they'd like to view, in each iteration of the loop.
+- Terminates the program when `exit` is input.
 - Prints a closing message when it is terminated!
 
 [Open stage 4 on Hyperskill](https://hyperskill.org/projects/196/stages/978/implement)

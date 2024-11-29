@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2fd479f-e3b3-4f25-90a4-f9cc9d7d3b85" name="Changes" comment="Created file for stage 4 solution code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c2fd479f-e3b3-4f25-90a4-f9cc9d7d3b85" name="Changes" comment="Added stage 4 solution code + UPDATE README.md">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/zookeeper/ZooPrinter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/zookeeper/ZooPrinter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732875300539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added stage 4 solution code + UPDATE README.md">
+      <option name="closed" value="true" />
+      <created>1732875770118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732875770118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +226,7 @@
     <MESSAGE value="Added stage 2 solution code + UPDATE README.md" />
     <MESSAGE value="Added stage 3 solution code + UPDATE README.md" />
     <MESSAGE value="Created file for stage 4 solution code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created file for stage 4 solution code" />
+    <MESSAGE value="Added stage 4 solution code + UPDATE README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added stage 4 solution code + UPDATE README.md" />
   </component>
 </project>
