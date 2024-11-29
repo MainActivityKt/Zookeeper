@@ -34,3 +34,39 @@ Now we are ready to print something awesome: an image of an animal!
 [Open stage 2 on Hyperskill](https://hyperskill.org/projects/196/stages/976/implement)
 
 Stage implementation: [AnimalPrinter.kt](app/src/main/kotlin/zookeeper/AnimalPrinter.kt)
+
+
+## Stage 3/4: What's inside?
+
+In this stage the program:
+
+- Ask for the number of the desired habitat.
+- Use the input number as an index of your habitats to print its content.
+- Prints the habitat and a message to end the program.
+- 
+The program stores each habitat as an Animal data type. Check [utils](app/src/main/kotlin/utils)
+
+[Open stage 2 on Hyperskill](https://hyperskill.org/projects/196/stages/977/implement)
+
+Stage implementation: [AnimalPrinter.kt](app/src/main/kotlin/zookeeper/AnimalPrinter.kt)
+
+**Example**
+
+    Please enter the number of the habitat you would like to view: > 4
+    
+    Switching on the camera in the bat habitat...
+    _________________               _________________
+    ~-.              \  |\___/|  /              .-~
+    ~-.           \ / o o \ /           .-~
+    >           \\  W  //           <
+    /             /~---~\             \
+    /_            |       |            _\
+    ~-.        |       |        .-~
+    ;        \     /        i
+    /___      /\   /\      ___\
+    ~-. /  \_/  \ .-~
+    V         V
+    This bat looks like it's doing fine.
+    ---
+    You've reached the end of the program. To check another habitat, please restart the watcher.
+

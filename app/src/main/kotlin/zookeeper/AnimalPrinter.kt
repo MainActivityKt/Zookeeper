@@ -1,6 +1,6 @@
 package zookeeper
 
-const val CAMEL = """ ___.-''''-.
+private const val CAMEL = """ ___.-''''-.
 /___  @    |
 ',,,,.     |         _.'''''''._
      '     |        /           \
