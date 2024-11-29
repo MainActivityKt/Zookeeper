@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2fd479f-e3b3-4f25-90a4-f9cc9d7d3b85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Zookeeper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZookeeperProject.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stage_1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stage_2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stage_3.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stage_4.kt" beforeDir="false" />
+    <list default="true" id="c2fd479f-e3b3-4f25-90a4-f9cc9d7d3b85" name="Changes" comment="Restructured the project">
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/zookeeper/ZooPrinter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +43,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -79,7 +79,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -97,6 +96,19 @@
       <option name="presentableId" value="Default" />
       <updated>1732870798118</updated>
     </task>
+    <task id="LOCAL-00001" summary="Restructured the project">
+      <option name="closed" value="true" />
+      <created>1732871784880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732871784880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restructured the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructured the project" />
   </component>
 </project>
