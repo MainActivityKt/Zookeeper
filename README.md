@@ -13,7 +13,7 @@ messages to the output.
 
 [Open stage 1 on Hyperskill](https://hyperskill.org/projects/196/stages/975/implement)
 
-Stage implementation: [ZooPrinter.kt](app/src/main/kotlin/zookeeper/ZooPrinter.kt)
+Stage implementation: [SimplePrinter.kt](app/src/main/kotlin/zookeeper/SimplePrinter.kt)
 
 **Example:**
     The output:
@@ -23,3 +23,14 @@ Stage implementation: [ZooPrinter.kt](app/src/main/kotlin/zookeeper/ZooPrinter.k
     The deer looks fine.
     The bat looks happy.
     The lion looks healthy.
+
+## Stage 2/4: Show me an animal!
+
+One of the most important parts of working with animals is keeping an eye on them. 
+We need to see the animals on the screen to know how they are doing, right? 
+
+Now we are ready to print something awesome: an image of an animal!
+
+[Open stage 2 on Hyperskill](https://hyperskill.org/projects/196/stages/976/implement)
+
+Stage implementation: [AnimalPrinter.kt](app/src/main/kotlin/zookeeper/AnimalPrinter.kt)
