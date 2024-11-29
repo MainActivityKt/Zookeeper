@@ -46,9 +46,9 @@ In this stage the program:
 - 
 The program stores each habitat as an Animal data type. Check [utils](app/src/main/kotlin/utils)
 
-[Open stage 2 on Hyperskill](https://hyperskill.org/projects/196/stages/977/implement)
+[Open stage 3 on Hyperskill](https://hyperskill.org/projects/196/stages/977/implement)
 
-Stage implementation: [AnimalPrinter.kt](app/src/main/kotlin/zookeeper/AnimalPrinter.kt)
+Stage implementation: [MultiPrinter.kt](app/src/main/kotlin/zookeeper/MulitPrinter.kt)
 
 **Example**
 
@@ -70,3 +70,54 @@ Stage implementation: [AnimalPrinter.kt](app/src/main/kotlin/zookeeper/AnimalPri
     ---
     You've reached the end of the program. To check another habitat, please restart the watcher.
 
+## Stage 4/4: Sustainable care <3
+
+In this, stage our program:
+
+- Repeat the behavior from the previous stage, but now in a loop.
+- Ask the user to enter the number of habitat they'd like to view, in each iteration of the loop.
+- Terminate the program when `exit` is input.
+- Prints a closing message when it is terminated!
+
+[Open stage 4 on Hyperskill](https://hyperskill.org/projects/196/stages/978/implement)
+
+Stage implementation: [ZooPrinter.kt](app/src/main/kotlin/zookeeper/ZooPrinter.kt)
+
+**Example:**
+
+    Please enter the number of the habitat you would like to view: > 3
+    
+    Switching on the camera in the goose habitat...
+    
+                                        _
+                                    ,-"" "".
+                                  ,'  ____  `.
+                                ,'  ,'    `.  `._
+    (`.         _..--.._   ,'  ,'        \    \
+      (`-.\    .-""        ""'   /          (  d _b
+    (`._  `-"" ,._             (            `-(   \
+     <_  `     (  <`<            \              `-._\
+    <`-       (__< <           :
+       (__        (_<_<          ;
+        `------------------------------------------
+    The goose is staring intently at you... Maybe it's time to change the channel?
+    Please enter the number of the habitat you would like to view: > 1
+    
+    Switching on the camera in the lion habitat...
+    ,w.
+    ,YWMMw  ,M  ,
+    _.---.._   __..---._.'MMMMMw,wMWmW,
+    _.-""        '''           YP"WMMMMMMMMMb,
+    .-' __.'                   .'     MMMMW^WMMMM;
+    _,        .'.-'"; `,       /`     .--""      :MMM[==MWMW^;
+    ,mM^"     ,-'.'   /   ;      ;      /   ,       MMMMb_wMW"  @\
+    ,MM:.    .'.-'   .'     ;     `\    ;     `,     MMMMMMMW `"=./`-,
+    WMMm__,-'.'     /      _.\      F'''-+,,   ;_,_.dMMMMMMMM[,_ / `=_}
+    "^MP__.-'    ,-' _.--""   `-,   ;       \  ; ;MMMMMMMMMMW^``; __|
+    /   .'            ; ;         )  )`{  \ `"^W^`,   \  :
+              /  .'             /  (       .'  /     Ww._     `.  `"
+             /  Y,              `,  `-,=,_{   ;      MMMP`""-,  `-._.-,
+            (--, )                `,_ / `) \/"")      ^"      `-, -;"\:
+    The lion is roaring!
+    Please enter the number of the habitat you would like to view: > exit
+    See you later!
